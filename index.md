@@ -73,8 +73,8 @@ By the end of this lab, you will be able to:
 
 ## Getting Started
 
-This lab is designed to run in **Google Colab**. You can run this in local Anaconda jupyter notebook as well, but it will take some time for the processing since the data file is big.
-Start from the downloaded notebook `Email-Spam-Detection.ipynb`. Make a personal copy of it and rename it to: `CYT180_Lab9_YourName.ipynb`. Work in your renamed copy for the entire lab.
+- This lab is designed to run in **Google Colab**. You can run this in local Anaconda jupyter notebook as well, but it will take some time for the processing since the data file is big.
+- Start from the downloaded notebook `Email-Spam-Detection.ipynb`. Make a personal copy of it and rename it to: `CYT180_Lab9_YourName.ipynb`. Work in your renamed copy for the entire lab.
  
 ----
 
