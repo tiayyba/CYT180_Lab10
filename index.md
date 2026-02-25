@@ -70,3 +70,99 @@ By the end of this lab, you will be able to:
 8. **Document your understanding** with clear, concise explanations and annotated screenshots in a PDF report.
 
 ----
+
+## Getting Started
+
+This lab is designed to run in **Google Colab**. You can run this in local Anaconda jupyter notebook as well, but it will take some time for the processing since the data file is big.
+Start from the downloaded notebook `Email-Spam-Detection.ipynb`. Make a personal copy of it and rename it to: `CYT180_Lab9_YourName.ipynb`. Work in your renamed copy for the entire lab.
+ 
+----
+
+## 🧪 Step‑by‑Step Lab Workflow
+
+You will follow the provided Jupyter Notebook **exactly as written**.  
+For each block of code, you must:
+
+1. **Learn** — Read the theory and understand the purpose  
+2. **Run** — Execute the code in Google Colab  
+3. **Comment** — Write your own explanation in your final PDF report
+
+Your final PDF must contain **screenshots + explanations** for each of the major steps below.
+
+---
+
+## 🔎 Step 1 — Load and Inspect the Dataset (EDA)
+
+### Learn
+Understand:
+- What is the structure of `spam.csv`?
+- What columns exist (`label`, `message`)?
+- How many spam vs. ham messages?
+- Why do we inspect the dataset before preprocessing?
+
+### Run
+Typical actions:
+- Load the dataset
+- Display the first few rows
+- Show dataset shape
+- Count spam vs. ham messages
+- Check for missing values
+
+### Comment
+Explain in your own words:
+- What the dataset looks like  
+- What “spam” and “ham” represent  
+- Any initial observations (class imbalance, duplicates, etc.)
+
+---
+
+## 🔧 Step 2 — Clean and Preprocess the Text (NLP Pipeline)
+
+### Learn
+This section contains core NLP concepts:
+- Removing non-alphabetic characters
+- Converting to lowercase
+- Splitting text into tokens
+- Removing stopwords
+- Stemming words
+- Constructing a corpus
+
+### Run
+Execute the preprocessing code, such as:
+
+- Looping through each message  
+- Using `re.sub('[^a-zA-Z]', ' ', ...)`  
+- Lowercasing  
+- Tokenizing  
+- Removing stopwords (`stopwords.words('english')`)  
+- Stemming (`PorterStemmer`)  
+- Building the final cleaned corpus  
+
+### Comment
+Explain **each** preprocessing step:
+- Why remove punctuation?
+- Why convert to lowercase?
+- What are stopwords?
+- What does stemming do?
+- What is a “corpus”?
+
+Include screenshots of:
+- A few processed messages
+- The printed corpus (first 5 items)
+
+---
+
+## 🧮 Step 3 — Feature Extraction (Bag‑of‑Words)
+
+### Learn
+Understand:
+- Why text must be converted to numbers  
+- What is **CountVectorizer**  
+- What “Bag‑of‑Words” means  
+- What `max_features=4000` does  
+
+### Run
+Execute:
+```python
+cv = CountVectorizer(max_features=4000)
+X = cv.fit_transform(corpus).toarray()
