@@ -3,7 +3,6 @@
 **Work Type:** Individual <br>
 **Submission Format:** 
 
-
 ----
 
 ## Introduction
@@ -89,6 +88,8 @@ For each block of code, you must:
 
 Your final submission PDF must contain **screenshots + explanations** for each of the major steps below.
 
+----
+
 ### Step 1 — Load and Inspect the Dataset (EDA)
 
 **Learn**
@@ -104,14 +105,14 @@ Your final submission PDF must contain **screenshots + explanations** for each o
 - Count spam vs. ham messages
 - Check for missing values
 
-**Comment**
-Explain in your own words:
+**Comment:** Explain in your own words:
 - What the dataset looks like  
 - What “spam” and “ham” represent  
 - Any initial observations (class imbalance, duplicates, etc.)
 
+-----
 
-### 🔧 Step 2 — Clean and Preprocess the Text (NLP Pipeline)
+### Step 2 — Clean and Preprocess the Text (NLP Pipeline)
 
 **Learn:** This section contains core NLP concepts:
 - Removing non-alphabetic characters
