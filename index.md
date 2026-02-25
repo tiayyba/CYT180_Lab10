@@ -29,46 +29,21 @@ In this lab you will learn about:
 
 You will use the following resources for this lab:
 
-### **1. GitHub Project (Open Source, GPL License)**
+### GitHub Project (Open Source, GPL License)**
 This lab is based on the following open‑source project:
 
 **Email Spam Detection Repository**  
 https://github.com/kanagalingamsm/Email-Spam-Detection
 
 This project provides the main notebook and pipeline used in Lab 9.
-
----
-
-### **2. Jupyter Notebook**
-A version of the notebook (`Email-Spam-Detection.ipynb`) is posted on Blackboard.  
-Students must download it and upload it into **Google Colab**.
-
----
-
-### **3. Dataset — `spam.csv`**
-This dataset contains labeled email messages (spam or ham).  
-You will upload this file into Colab along with the notebook.
-
----
-
-### **4. Additional Lab Instructions**
-A copy of the Lab 9 instructions (this document) will be provided on:
-
-- **Blackboard**
-- **GitHub (this repository)**
-
-Students must follow both sources while completing the lab.
-
----
-
-### **Summary of Required Items**
-- Notebook: `Email-Spam-Detection.ipynb`  
-- Dataset: `spam.csv`  
-- This Lab 9 instruction document  
-- GitHub project reference (read for understanding)
+You will use the following files from this project:
+- **Jupyter Notebook:** Download the `Email-Spam-Detection.ipynb` and upload it into **Google Colab**.
+- **Dataset:** Download the file`spam.csv`. This dataset contains labeled email messages (spam or ham). You will upload this file into Colab along with the notebook.
+- **README.md** This file contains the project description, you must reffer to this to understand the project.
 
 ----
-## 🎯 Lab Objectives
+
+## Lab Objectives
 
 By the end of this lab, you will be able to:
 
@@ -89,7 +64,9 @@ By the end of this lab, you will be able to:
    - Precision
    - Recall
    - F1-score
-   - **Confusion Matrix** (TP, TN, FP, FN)
+   - Confusion Matrix (TP, TN, FP, FN)
 6. **Select and save** the best-performing model to a file and **load it back** to make predictions.
 7. **Classify unseen messages** by applying the same preprocessing and using the saved model.
 8. **Document your understanding** with clear, concise explanations and annotated screenshots in a PDF report.
+
+----
