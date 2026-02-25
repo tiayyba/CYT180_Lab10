@@ -134,10 +134,6 @@ Your final submission PDF must contain **screenshots + explanations** for each o
 - What does stemming do?
 - What is a “corpus”?
 
-Include screenshots of:
-- A few processed messages
-- The printed corpus (first 5 items)
-
 ----
 
 ### Step 3 — Feature Extraction (Bag‑of‑Words)
