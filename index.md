@@ -26,9 +26,9 @@ In this lab you will learn about:
 
 ## Source Files and Materials
 
-For this lab you will use an **Open Source, GPL License GitHub Project** as mentioned below.<br>
-**Email Spam Detection Repository**  
-https://github.com/kanagalingamsm/Email-Spam-Detection
+For this lab you will use an **Open Source, GPL License GitHub Project** as mentioned below.
+
+**Email Spam Detection Repository** https://github.com/kanagalingamsm/Email-Spam-Detection
 
 This project provides the main notebook and pipeline used in Lab 9.
 You will use the following files from this project:
