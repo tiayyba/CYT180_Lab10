@@ -1,7 +1,7 @@
 # CYT180 — Lab 9: Email Spam Filtering 
 **Weight:** 3% <br>
 **Work Type:** Individual <br>
-**Submission Format:** 
+**Submission Format:** PDF Report
 
 ----
 
