@@ -89,8 +89,6 @@ For each block of code, you must:
 
 Your final submission PDF must contain **screenshots + explanations** for each of the major steps below.
 
-----
-
 ### Step 1 — Load and Inspect the Dataset (EDA)
 
 **Learn**
@@ -112,12 +110,10 @@ Explain in your own words:
 - What “spam” and “ham” represent  
 - Any initial observations (class imbalance, duplicates, etc.)
 
----
 
-## 🔧 Step 2 — Clean and Preprocess the Text (NLP Pipeline)
+### 🔧 Step 2 — Clean and Preprocess the Text (NLP Pipeline)
 
-### Learn
-This section contains core NLP concepts:
+**Learn:** This section contains core NLP concepts:
 - Removing non-alphabetic characters
 - Converting to lowercase
 - Splitting text into tokens
@@ -125,9 +121,7 @@ This section contains core NLP concepts:
 - Stemming words
 - Constructing a corpus
 
-### Run
-Execute the preprocessing code, such as:
-
+**Run:** Execute the preprocessing code, such as:
 - Looping through each message  
 - Using `re.sub('[^a-zA-Z]', ' ', ...)`  
 - Lowercasing  
@@ -136,8 +130,7 @@ Execute the preprocessing code, such as:
 - Stemming (`PorterStemmer`)  
 - Building the final cleaned corpus  
 
-### Comment
-Explain **each** preprocessing step:
+**Comment:** Explain each preprocessing step:
 - Why remove punctuation?
 - Why convert to lowercase?
 - What are stopwords?
@@ -148,9 +141,8 @@ Include screenshots of:
 - A few processed messages
 - The printed corpus (first 5 items)
 
----
 
-## 🧮 Step 3 — Feature Extraction (Bag‑of‑Words)
+## Stepp 3 — Feature Extraction (Bag‑of‑Words)
 
 ### Learn
 Understand:
