@@ -71,37 +71,33 @@ By the end of this lab, you will be able to:
 
 ----
 
-## Getting Started
+## Environment Setup
 
 - This lab is designed to run in **Google Colab**. You can run this in local Anaconda jupyter notebook as well, but it will take some time for the processing since the data file is big.
 - Start from the downloaded notebook `Email-Spam-Detection.ipynb`. Make a personal copy of it and rename it to: `CYT180_Lab9_YourName.ipynb`. Work in your renamed copy for the entire lab.
  
 ----
 
-## 🧪 Step‑by‑Step Lab Workflow
+## Getting Started: Step‑by‑Step Lab Workflow
 
 You will follow the provided Jupyter Notebook **exactly as written**.  
 For each block of code, you must:
 
 1. **Learn** — Read the theory and understand the purpose  
 2. **Run** — Execute the code in Google Colab  
-3. **Comment** — Write your own explanation in your final PDF report
+3. **Comment** — Write your own explanation in the markdown cell
 
-Your final PDF must contain **screenshots + explanations** for each of the major steps below.
+Your final submission PDF must contain **screenshots + explanations** for each of the major steps below.
 
----
-
-## 🔎 Step 1 — Load and Inspect the Dataset (EDA)
+### Step 1 — Load and Inspect the Dataset (EDA)
 
 ### Learn
-Understand:
-- What is the structure of `spam.csv`?
+- Understand the structure of `spam.csv`.
 - What columns exist (`label`, `message`)?
 - How many spam vs. ham messages?
 - Why do we inspect the dataset before preprocessing?
 
 ### Run
-Typical actions:
 - Load the dataset
 - Display the first few rows
 - Show dataset shape
