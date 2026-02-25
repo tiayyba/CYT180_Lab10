@@ -236,4 +236,72 @@ You will run and compare:
 
 ----
 
+### Step 7 — Evaluate the Models
 
+**Learn:** Understand the metrics included
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix (TP, TN, FP, FN)
+
+**Run:**
+- Execute the corresponding python cell containing code like this.
+```python
+pred = model.predict(X_test)
+print(accuracy_score(Y_test, pred))
+print(precision_score(Y_test, pred))
+print(recall_score(Y_test, pred))
+print(f1_score(Y_test, pred))
+print(confusion_matrix(Y_test, pred))
+```
+
+**Comment:** Exaplain
+- What each metric tells you
+- What the confusion matrix means (4 quadrants)
+- Why precision/recall may matter more than accuracy in spam filtering
+
+----
+### Step 8 — Select the Best Model, Save and Load the Best Model
+
+- Comment Why one model outperforms others.   
+- Which model should be selected so that we can save it and use it for new data. Justify the chosen best model.
+- Save the selected model using `pickle`:
+- 
+``` python
+pickle.dump(best_model, open('model.pkl', 'wb'))
+model = pickle.load(open('model.pkl', 'rb'))
+```
+----
+
+### Step 9 — Predict on a New Email Message
+
+- Use whatever prediction cell is included in the notebook and try your own message.
+
+----
+
+## Submission Guidelines
+
+Your submission must include a **PDF report** containing screenshots and explanations.  
+Follow all instructions carefully — submissions that do not meet these requirements may not be accepted.
+
+## 🧾 2. Required Contents of the PDF Report
+
+Your PDF must include the following sections:
+
+1. **Title Page**
+- Course ID: **CYT180**
+- Lab Number: **Lab 9 – Email Spam Filtering**
+- Your full name
+- Date
+
+2. **Screenshots from Your Notebook**
+- Include screenshots for every major step of the lab
+- Also include the answers of questions from each step's "comment" section. These answers can be added as screenshots from your notebooks markdown cells or added as text in the final pdf.
+- Screenshots must be clear and readable. Partial or missing screenshots result in reduced marks.
+
+3. **Final Conclusion**
+Write 1–2 short paragraphs summarizing:
+- What you learned  
+- How ML is applied to spam filtering  
+- Strengths and limitations of the approach  
