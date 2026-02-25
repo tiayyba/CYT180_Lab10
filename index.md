@@ -89,22 +89,24 @@ For each block of code, you must:
 
 Your final submission PDF must contain **screenshots + explanations** for each of the major steps below.
 
+----
+
 ### Step 1 — Load and Inspect the Dataset (EDA)
 
-### Learn
+**Learn**
 - Understand the structure of `spam.csv`.
 - What columns exist (`label`, `message`)?
 - How many spam vs. ham messages?
 - Why do we inspect the dataset before preprocessing?
 
-### Run
+**Run**
 - Load the dataset
 - Display the first few rows
 - Show dataset shape
 - Count spam vs. ham messages
 - Check for missing values
 
-### Comment
+**Comment**
 Explain in your own words:
 - What the dataset looks like  
 - What “spam” and “ham” represent  
