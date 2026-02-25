@@ -189,3 +189,51 @@ Include screenshots of:
  
 ----
 
+### Step 5 — Train/Test Split
+
+**Learn:**
+- Understand why we split into training and testing sets
+- What overfitting means
+- Why 70/30 or 80/20 splits are common
+
+**Run:**
+- Execute the corresponding python cell
+```python
+  X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.25, random_state=0)
+```
+
+**Comment:**
+- What train_test_split does
+- Why we need separate training and test sets
+
+----
+
+### Step 6 — Train Three ML Models
+You will run and compare:
+
+1. Decision Tree Classifier
+2. Random Forest Classifier
+3. Multinomial Naïve Bayes
+
+**Learn:** For each model, understand:
+- What type of classifier it is
+- Why it might perform well or poorly on text data
+
+**Run:**
+- Execute the corresponding python cell containing code like this.
+```python
+  dt = DecisionTreeClassifier().fit(X_train, Y_train)
+  rf = RandomForestClassifier().fit(X_train, Y_train)
+  nb = MultinomialNB().fit(X_train, Y_train)
+```
+
+**Comment:** For each model include:
+- Screenshot of accuracy score
+- Short explanation (2–3 sentences):
+  - What the model is
+  - Strengths / weaknesses
+  - Its accuracy compared to others
+
+----
+
+
