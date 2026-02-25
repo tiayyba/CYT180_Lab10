@@ -142,18 +142,50 @@ Include screenshots of:
 - A few processed messages
 - The printed corpus (first 5 items)
 
+----
 
-## Stepp 3 — Feature Extraction (Bag‑of‑Words)
+### Step 3 — Feature Extraction (Bag‑of‑Words)
 
-### Learn
-Understand:
-- Why text must be converted to numbers  
+**Learn:**
+- Understand why text must be converted to numbers  
 - What is **CountVectorizer**  
 - What “Bag‑of‑Words” means  
 - What `max_features=4000` does  
 
-### Run
-Execute:
+**Run:**
+- Execute the corresponding python cell containing
 ```python
-cv = CountVectorizer(max_features=4000)
-X = cv.fit_transform(corpus).toarray()
+  cv = CountVectorizer(max_features=4000)
+  X = cv.fit_transform(corpus).toarray()
+```
+
+**Comment:**
+What the feature matrix X represents
+Why we limit vocabulary size
+The shape of the matrix (rows = messages, columns = words)
+
+----
+
+### Step 4 — Prepare Labels (Y)
+
+**Learn:**
+- Understand why  labels must be numeric  
+- How pd.get_dummies() works
+- Why we use one column (binary classification)
+
+**Run:**
+- Execute the corresponding python cell
+```python
+  Y = pd.get_dummies(spam['label'])
+  Y = Y.iloc[:, 1].values
+```
+
+**Comment:**
+- What pd.get_dummies() creates
+- Why we select the second column
+- Meaning of:
+  - 1 = spam
+  - 0 = ham
+ 
+----
+
