@@ -12,7 +12,7 @@ email messages as **spam** or **ham (harmless)**. The work is based on an open�
 and a provided Jupyter Notebook. Your focus is on **comprehension and analysis**: running the code, interpreting outputs, 
 and explaining each step in your own words.
 
-### What you will learn
+In this lab you will learn about:
 - The supervised learning workflow for **binary classification**
 - How text is transformed using **NLP preprocessing** (cleaning, tokenization, stopwords, stemming)
 - How **Bag‑of‑Words** (CountVectorizer) converts text into numeric features
