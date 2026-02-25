@@ -224,7 +224,6 @@ You will run and compare:
 - Screenshot of accuracy score
 - Short explanation (2–3 sentences):
   - What the model is
-  - Strengths / weaknesses
   - Its accuracy compared to others
 
 ----
