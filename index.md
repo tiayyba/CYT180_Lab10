@@ -34,7 +34,7 @@ This project provides the main notebook and pipeline used in Lab 9.
 You will use the following files from this project:
 - **Jupyter Notebook:** Download the `Email-Spam-Detection.ipynb` and upload it into **Google Colab**.
 - **Dataset:** Download the file`spam.csv`. This dataset contains labeled email messages (spam or ham). You will upload this file into Colab along with the notebook.
-- **README.md** This file contains the project description, you must reffer to this to understand the project.
+- **README.md:** This file contains the project description, you must reffer to this to understand the project.
 
 ----
 
