@@ -276,9 +276,6 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 Your submission must include a **PDF report** containing screenshots and explanations.  
 Follow all instructions carefully — submissions that do not meet these requirements may not be accepted.
-
-## 🧾 2. Required Contents of the PDF Report
-
 Your PDF must include the following sections:
 
 1. **Title Page**
@@ -288,7 +285,7 @@ Your PDF must include the following sections:
 - Date
 
 2. **Screenshots from Your Notebook**
-- Include screenshots for every major step of the lab
+- Include screenshots for every major step of the lab done above. 
 - Also include the answers of questions from each step's "comment" section. These answers can be added as screenshots from your notebooks markdown cells or added as text in the final pdf.
 - Screenshots must be clear and readable. Partial or missing screenshots result in reduced marks.
 
