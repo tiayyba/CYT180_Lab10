@@ -160,9 +160,9 @@ Include screenshots of:
 ```
 
 **Comment:**
-What the feature matrix X represents
-Why we limit vocabulary size
-The shape of the matrix (rows = messages, columns = words)
+- What the feature matrix X represents
+- Why we limit vocabulary size
+- The shape of the matrix (rows = messages, columns = words)
 
 ----
 
