@@ -26,11 +26,7 @@ In this lab you will learn about:
 
 ## Source Files and Materials
 
-You will use the following resources for this lab:
-
-**GitHub Project (Open Source, GPL License)**
-This lab is based on the following open‑source project:
-
+For this lab you will use an **Open Source, GPL License GitHub Project** as mentioned below. 
 **Email Spam Detection Repository**  
 https://github.com/kanagalingamsm/Email-Spam-Detection
 
