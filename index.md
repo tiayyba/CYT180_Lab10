@@ -259,7 +259,7 @@ print(confusion_matrix(Y_test, pred))
 - Comment Why one model outperforms others.   
 - Which model should be selected so that we can save it and use it for new data. Justify the chosen best model.
 - Save the selected model using `pickle`:
-- 
+  
 ``` python
 pickle.dump(best_model, open('model.pkl', 'wb'))
 model = pickle.load(open('model.pkl', 'rb'))
