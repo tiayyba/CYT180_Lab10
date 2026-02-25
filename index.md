@@ -141,7 +141,7 @@ Your final submission PDF must contain **screenshots + explanations** for each o
 **Learn:**
 - Understand why text must be converted to numbers  
 - What is **CountVectorizer**  
-- What “Bag‑of‑Words” means  
+- What `Bag‑of‑Words` means  
 - What `max_features=4000` does  
 
 **Run:**
@@ -155,6 +155,7 @@ Your final submission PDF must contain **screenshots + explanations** for each o
 - What the feature matrix X represents
 - Why we limit vocabulary size
 - The shape of the matrix (rows = messages, columns = words)
+- Your understanding of `CountVectorizer` and `Bag‑of‑Words`
 
 ----
 
