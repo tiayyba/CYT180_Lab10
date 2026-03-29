@@ -30,7 +30,7 @@ For this lab you will use an **Open Source, GPL License GitHub Project** as ment
 
 **Email Spam Detection Repository** https://github.com/kanagalingamsm/Email-Spam-Detection
 
-This project provides the main notebook and pipeline used in Lab 9.
+This project provides the main notebook and pipeline used in this lab.
 You will use the following files from this project:
 - **Jupyter Notebook:** Download the `Email-Spam-Detection.ipynb` and upload it into **Google Colab**.
 - **Dataset:** Download the file`spam.csv`. This dataset contains labeled email messages (spam or ham). You will upload this file into Colab along with the notebook.
